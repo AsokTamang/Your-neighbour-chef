@@ -4,8 +4,10 @@ export default function Secondrecipe(props){
         <>
     {props.rs && 
          
-         (<section className='rmarkdown'>
+         
+         (<section ref={props.recipesection} recipee={props.recipesection} className='rmarkdown'>
             <h2>Chef Recommends:</h2>
-            <ReactMarkdown>{props.rt}</ReactMarkdown></section>)}     {/*this ReactMarkdown automatically manages the response from api.*/}
+            <ReactMarkdown>{props.rt}</ReactMarkdown></section>)
+            }   {/*this ReactMarkdown automatically manages the response from api.*/}
     
     </>)}   

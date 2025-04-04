@@ -2,7 +2,7 @@ export default function Btrecipe(props){
     return (
      <>
      {props.vv.length>4 && 
-         (<div className="recipecontainer2">
+         (<div  className="recipecontainer2">
          
           <div className="justtwo">   
           <h2>Ready for recipe?</h2>   
